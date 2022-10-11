@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Android Large - 1 -->
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/android_lar"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:clipToOutline="true"
+    android:background="@drawable/lki">
+
+    <TextView
+        android:id="@+id/track_my_bu"
+        android:layout_width="280dp"
+        android:layout_height="48dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="70dp"
+        android:layout_marginTop="53dp"
+        android:gravity="top"
+        android:text="@string/track_my_bu"
+        android:textAppearance="@style/track_my_bu" />
+
+    <View
+        android:id="@+id/enter"
+        android:layout_width="101dp"
+        android:layout_height="32dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="130dp"
+        android:layout_marginTop="689dp"
+        android:background="@drawable/rectangle_1" />
+
+    <TextView
+        android:id="@+id/welcome_"
+        android:layout_width="101dp"
+        android:layout_height="24dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="151dp"
+        android:layout_marginTop="120dp"
+        android:gravity="top"
+        android:text="@string/welcome_"
+        android:textAppearance="@style/welcome_" />
+
+    <TextView
+        android:id="@+id/enter"
+        android:layout_width="63dp"
+        android:layout_height="24dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="149dp"
+        android:layout_marginTop="694dp"
+        android:gravity="top"
+        android:text="@string/enter"
+        android:textAppearance="@style/enter" />
+    x
+</RelativeLayout>

@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg12"
+    tools:context=".bookingActivity2">
+
+    <TextView
+        android:id="@+id/ticket_book"
+        android:layout_width="wrap_content"
+        android:layout_height="38dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="53dp"
+        android:layout_marginTop="16dp"
+        android:gravity="top"
+        android:text="TICKET BOOKING PAGE"
+        android:textAppearance="@style/ticket_book" />
+
+    <TextView
+        android:id="@+id/passanger_n"
+        android:layout_width="wrap_content"
+        android:layout_height="32dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="153dp"
+        android:gravity="top"
+        android:text="PASSENGER NAME :"
+        android:textAppearance="@style/passanger_n" />
+
+    <EditText
+        android:id="@+id/rectangle_1"
+        android:layout_width="126dp"
+        android:layout_height="28dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="216dp"
+        android:layout_marginTop="155dp"
+        android:background="@drawable/rectangle_3" />
+
+    <TextView
+        android:id="@+id/mobile_no_"
+        android:layout_width="wrap_content"
+        android:layout_height="32dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="31dp"
+        android:layout_marginTop="217dp"
+        android:gravity="top"
+        android:text="MOBILE NO :"
+        android:textAppearance="@style/passanger_n" />
+
+    <EditText
+        android:id="@+id/rectangle_2"
+        android:layout_width="126dp"
+        android:layout_height="28dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="216dp"
+        android:layout_marginTop="220dp"
+        android:background="@drawable/rectangle_3" />
+
+    <TextView
+        android:id="@+id/mobile_no1"
+        android:layout_width="wrap_content"
+        android:layout_height="32dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="31dp"
+        android:layout_marginTop="291dp"
+        android:gravity="top"
+        android:text="E-MAIL ID :"
+        android:textAppearance="@style/passanger_n" />
+
+    <EditText
+        android:id="@+id/rectangle_3"
+        android:layout_width="126dp"
+        android:layout_height="28dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="216dp"
+        android:layout_marginTop="291dp"
+        android:background="@drawable/rectangle_3" />
+
+    <TextView
+        android:id="@+id/mobile_no2"
+        android:layout_width="wrap_content"
+        android:layout_height="32dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="31dp"
+        android:layout_marginTop="360dp"
+        android:gravity="top"
+        android:text="FROM PLACE:"
+        android:textAppearance="@style/passanger_n" />
+
+    <EditText
+        android:id="@+id/rectangle_4"
+        android:layout_width="126dp"
+        android:layout_height="28dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="216dp"
+        android:layout_marginTop="360dp"
+        android:background="@drawable/rectangle_3" />
+
+    <TextView
+        android:id="@+id/mobile_no3"
+        android:layout_width="wrap_content"
+        android:layout_height="32dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="31dp"
+        android:layout_marginTop="431dp"
+        android:gravity="top"
+        android:text="TO PLACE :"
+        android:textAppearance="@style/passanger_n" />
+
+    <EditText
+        android:id="@+id/rectangle_41"
+        android:layout_width="126dp"
+        android:layout_height="28dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="216dp"
+        android:layout_marginTop="431dp"
+        android:background="@drawable/rectangle_3" />
+
+    <TextView
+        android:id="@+id/edt"
+        android:layout_width="98dp"
+        android:layout_height="38dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="150dp"
+        android:layout_marginTop="511dp"
+        android:background="@drawable/rectangle_12"
+        android:elevation="4dp"
+        android:gravity="center"
+        android:text="CONFIRM" />
+
+</RelativeLayout>

@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">MUTHU</string>
+    <string name="welcome_">WELCOME!</string>
+    <string name="track_my_bu">TRACK MY BUS</string>
+    <string name="enter">ENTER</string>
+    <string name="login_page">LOGIN PAGE</string>
+    <string name="login_to_co">LOGIN TO CONTINUE</string>
+    <string name="user">USER</string>
+    <string name="username">USERNAME</string>
+    <string name="password">PASSWORD</string>
+    <string name="sign_in">SIGN IN</string>
+</resources>
